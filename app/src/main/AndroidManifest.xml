@@ -13,7 +13,7 @@
         <activity android:name=".StatsActivity" />
         <activity android:name=".TransactionsActivity" />
         <activity android:name=".VideosActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
