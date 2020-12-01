@@ -3,6 +3,6 @@
     <string name="community_button">Community Button</string>
     <string name="videos_button">Videos Button</string>
     <string name="home_button">Home Button</string>
-    <string name="videos_of_the_day">TODAY&apos;S TOP STORIES</string>
+    <string name="videos_of_the_day">TOP STORIES</string>
     <string name="menu_button">Menu Button</string>
 </resources>
