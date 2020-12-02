@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="videos_of_the_day">TOP STORIES</string>
+    <string name="video_placeholder">Video placeholder</string>
 </resources>
