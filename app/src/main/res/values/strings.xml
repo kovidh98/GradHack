@@ -5,4 +5,8 @@
     <string name="home_button">Home Button</string>
     <string name="videos_of_the_day">TOP STORIES</string>
     <string name="menu_button">Menu Button</string>
+    <string name="video_placeholder">Video placeholder</string>
+    <string name="john_doe">JOHN DOE</string>
+    <string name="your_money">YOUR MONEY</string>
+    <string name="balance">$567,890.00</string>
 </resources>
