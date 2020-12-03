@@ -1,7 +1,10 @@
 package com.app.gradhack
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -12,10 +15,22 @@ class HomeActivity : AppCompatActivity() {
     //vars
     private var mNames = ArrayList<String>()
     private var mImageUrls = ArrayList<String>()
-    override fun onCreate(savedInstanceState: Bundle?) {
+    private lateinit var videosButton : ImageButton
+    override fun onCreate(savedInstanceState: Bundle
+    ?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        videosButton = findViewById(R.id.videosButton)
+        videosButton.setOnClickListener{
+            openVideosActivity()
+        }
+
         images
+    }
+
+    fun openVideosActivity(){
+        val intent = Intent(this, VideosActivity::class.java)
+        startActivity(intent)
     }
 
     private val images: Unit
