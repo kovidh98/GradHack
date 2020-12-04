@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "932965748825",
+    "firebase_url": "https://curious-striker-296908.firebaseio.com",
+    "project_id": "curious-striker-296908",
+    "storage_bucket": "curious-striker-296908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932965748825:android:470277e4f954782945a148",
+        "android_client_info": {
+          "package_name": "com.app.gradhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932965748825-qvfq4cp2rfgphvf66s7jatnd76gp00l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.gradhack",
+            "certificate_hash": "ece8ee543f9f24e1f554b8b4885266efc509a73f"
+          }
+        },
+        {
+          "client_id": "932965748825-v9fko0eese534itebrfj3gb5bh6135lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAebkY9A-vuFPcClErJatlJBjUmXowSdRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932965748825-v9fko0eese534itebrfj3gb5bh6135lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
