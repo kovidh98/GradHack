@@ -35,6 +35,6 @@ class VideosActivity : AppCompatActivity() {
         val recyclerView2 = findViewById<RecyclerView>(R.id.recyclerView2)
         recyclerView2.layoutManager = layoutManager2
         val adapter2 = RecyclerViewAdapter(this, mImageUrls, mVideoUrls)
-        recyclerView.adapter = adapter2
+        recyclerView2.adapter = adapter2
     }
 }

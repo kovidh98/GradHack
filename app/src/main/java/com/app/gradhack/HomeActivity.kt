@@ -27,7 +27,7 @@ class HomeActivity : AppCompatActivity() {
         val rootRef: DatabaseReference = FirebaseDatabase.getInstance().reference
         val videosRef: DatabaseReference = rootRef.child("videos")
 
-        videosRef.addListenerForSingleValueEvent(object : ValueEventListener{
+        videosRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 mImageUrls.clear()
                 mVideoUrls.clear()
@@ -36,6 +36,7 @@ class HomeActivity : AppCompatActivity() {
                     if (videoUrls != null){
                         mImageUrls.add(videoUrls.thumbnailUrl)
                         mVideoUrls.add(videoUrls.videoUrl)
+                        initRecyclerView()
                     }
                 }
             }
@@ -45,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
             }
         })
 
-        initRecyclerView()
+
         videosButton = findViewById(R.id.videosButton)
         videosButton.setOnClickListener{
             openVideosActivity(mImageUrls, mVideoUrls)

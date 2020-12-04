@@ -10,4 +10,5 @@
     <string name="your_money">YOUR MONEY</string>
     <string name="balance">$567,890.00</string>
     <string name="money_spent">MONEY SPENT</string>
+    <string name="earlier_this_week">EARLIER THIS WEEK</string>
 </resources>

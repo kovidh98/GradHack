@@ -152,7 +152,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"
         android:padding="4dp"
-        android:text="@string/videos_of_the_day"
+        android:text="@string/earlier_this_week"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView2"
